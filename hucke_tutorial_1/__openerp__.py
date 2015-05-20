@@ -13,6 +13,7 @@
         'base',
     ],
     'data': [
+        'view/todo_view.xml',
     ],
     'js': [],
     'installable': True,
