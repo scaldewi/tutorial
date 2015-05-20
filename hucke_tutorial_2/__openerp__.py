@@ -3,7 +3,7 @@
 # this module contains the full copyright notices and license terms.
 
 {
-    'name' : 'Hucke Programming Tutorial 1',
+    'name' : 'Hucke Programming Tutorial 2',
     'version': '1.0',
     'author': 'Hucke Media GmbH & Co. KG',
     'category': 'Custom',
@@ -11,10 +11,10 @@
     'summary': 'Odoo Module Summary',
     'depends': [
         'base',
+        'hucke_tutorial_1',
     ],
     'data': [
         'view/todo_view.xml',
-        'security/ir.model.access.csv',
     ],
     'js': [],
     'installable': True,
